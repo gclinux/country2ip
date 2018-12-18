@@ -1,0 +1,20 @@
+{
+    "name": "gclinux/Country2Ip",
+    "type": "library",
+    "description": "输入两位国家代号,返回该国家的ip",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gclinux",
+            "email": "os.debian@gmail.com"
+        }
+    ],
+    "require": {
+    },
+
+    "autoload": {
+        "classmap": [
+            "src/class"
+        ]
+    }
+}
