@@ -1,5 +1,5 @@
 {
-    "name": "gclinux/Country2Ip",
+    "name": "gclinux/country2ip",
     "type": "library",
     "description": "输入两位国家代号,返回该国家的ip",
     "license": "MIT",

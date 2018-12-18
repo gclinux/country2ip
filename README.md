@@ -7,7 +7,7 @@
 本类支持composer直接安装
 
 ```shell
-composer require gclinux/Country2Ip
+composer require gclinux/country2ip
 ```
 
 
