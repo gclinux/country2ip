@@ -32,7 +32,7 @@ class Country2Ip{
         for($i=0;$i<$need_return_ip_number;$i++){
             $k = array_rand($iplist,1);
             $range = &$iplist[$k];
-            $return_data[] = long2ip(rand($range[0],$range[1]));
+            $return_data[] = long2ip(rand(inval($range[0]),intval($range[1])));
         }
         return $return_data;
     }
