@@ -22,7 +22,10 @@ class Country2Ip{
         if($this->db === NULL){
             $this->loadDb();
         }
-        $country_code = strtolower($country_code);
+        $country_code = strtoupper($country_code);
+        if($country_code == 'UK'){
+            $country_code = 'GB';
+        }
         $iplist = &$this->db[$country_code];
        // print_r($this->db);
         if(!$iplist){
